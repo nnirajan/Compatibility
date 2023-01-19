@@ -83,8 +83,35 @@
 		6A2A774A2979186F00BB035C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6A5E42272977F8A7007BE4E4 /* CompatibilityCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		6A2A774D29793E4A00BB035C /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E42292977FE0E007BE4E4 /* DropViewView.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		6A2A774F29793E7A00BB035C /*  Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A775029793E8600BB035C /* Views */,
+				6A5E42232977F32F007BE4E4 /* CompatibilityViewController.swift */,
+			);
+			path = " Compatibility";
+			sourceTree = "<group>";
+		};
+		6A2A775029793E8600BB035C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E42252977F384007BE4E4 /* CompatibilityView.swift */,
+				6A2A774A2979186F00BB035C /* Cells */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6A5E42022977F30A007BE4E4 = {
@@ -106,6 +133,7 @@
 		6A5E420D2977F30A007BE4E4 /* Compatibiltiy */ = {
 			isa = PBXGroup;
 			children = (
+				6A2A774D29793E4A00BB035C /* Reusables */,
 				6A2A77472979180700BB035C /* Models */,
 				6A2A7746297917D100BB035C /* Extras */,
 				6A2A77452979149300BB035C /* Resources */,
@@ -118,11 +146,7 @@
 		6A5E42222977F314007BE4E4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				6A2A774A2979186F00BB035C /* Cells */,
-				6A5E42232977F32F007BE4E4 /* CompatibilityViewController.swift */,
-				6A5E42252977F384007BE4E4 /* CompatibilityView.swift */,
-				6A5E42272977F8A7007BE4E4 /* CompatibilityCollectionViewCell.swift */,
-				6A5E42292977FE0E007BE4E4 /* DropViewView.swift */,
+				6A2A774F29793E7A00BB035C /*  Compatibility */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
